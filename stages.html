@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stages.css">
+    <title>NEW DESIGN</title>
+    <link rel="shortcut icon" href="img/ND.png" type="image/png">
+</head>
+<body>
+    <header>
+            <nav>
+                <ul>
+                    <picture class="ND">
+                        <a href="main.html">
+                            <figure>
+                                <img src="img/ND.png" alt="ND" >
+                            </figure>
+                        </a>
+                    </picture>
+                    <li><a href="portfolio2.html">ПОРТФОЛИО</a></li>
+                    <li><a href="stages.html">УСЛУГИ</a></li>
+                    <li><a href="aboutme.html">ОБО МНЕ</a></li>
+                    <li><a href="main.html">КОНТАКТЫ</a></li>
+                    <picture class="ND3">
+                        <a href="main.html">
+                            <figure>
+                                <img src="img/ND3.png" alt="ND3" >
+                            </figure>
+                        </a>
+                    </picture>
+                </ul>
+            </nav>
+    </header>
+    <div>
+        <div class="stage">ЭТАПЫ РАБОТЫ </div>
+        <div class="stages">НАД САЙТОМ </div>
+        <picture class="framework">
+            <img src="img/framework.png" alt="работа">
+        </picture>
+        <picture class="grey_one">
+            <img src="img/grey_one.png" alt="работа">
+        </picture>
+        <div class="one">1 этап. </div>
+        <div class="one_s">ЗНАКОМСТВО </div>
+        <div class="one_text">Знакомимся с вами и с вашей задачей. Обсуждаем проект: какой <br>объем сайта будет, структуру и функционал сайта, какую <br>задачу он должен выполнять. </div>
+
+        <picture class="grey_two">
+            <img src="img/grey_two.png" alt="работа">
+        </picture>
+        <div class="two">2 этап. </div>
+        <div class="two_s">ПРОТОТИП </div>
+        <div class="two_text">На этапе прототипа анализируем ваших конкурентов, целевую <br> аудиторию, продумываем структуру сайта и работаем <br>над текстом. </div>
+
+        <picture class="grey_tree">
+            <img src="img/grey_tree.png" alt="работа">
+        </picture>
+        <div class="tree">3 этап. </div>
+        <div class="tree_s">ДИЗАЙН САЙТА </div>
+        <div class="tree_text">Создаем дизайн-макет главной страницы,<br> согласовываем его. После его утверждения<br> делаем дизайн остальных страниц сайта.</div>
+
+        <picture class="grey_four">
+            <img src="img/grey_four.png" alt="работа">
+        </picture>
+        <div class="four">4 этап. </div>
+        <div class="four_s">ВЕРСТКА СТРАНИЦ </div>
+        <div class="four_text">После утверждения дизайна всех страниц,приступаем к <br> верстке и к адаптации сайта под все мобильные устройства. </div>
+        
+        <picture class="grey_five">
+            <img src="img/grey_five.png" alt="работа">
+        </picture>
+        <div class="five">5 этап. </div>
+        <div class="five_s">ПЕРЕДАЧА ПРОЕКТА </div>
+        <div class="five_text">После утверждения всего проекта, <br>вносите оплату и вам передают готовый сайт. </div>
+        <div class="btn">Запустить</div>
+        <div class="star1"><img src="img/star1.png" alt="звезда"></div>
+        <script>
+            let btn = document.querySelector('.btn');
+                star1 = document.querySelector('.star1');
+
+            function moveDown(){
+                let coordY = 400;
+                let time = setInterval(frame, 10);
+                function frame() {
+                    if (coordY == 550) {
+                        clearInterval(time);
+                    } else {
+                        coordY++;
+                        star1.style.top = coordY + 'px';
+                    }
+                }
+            }
+
+            btn.addEventListener('click', moveDown);
+        </script>
+    </div>
+    <div class="cost">СТОИМОСТЬ </div>
+    <div class="services">
+        <picture class="Line10">
+            <img src="img/Line10.png" alt="работа">
+        </picture>
+        <div class="website_one">одностраничный сайт </div>
+        <div class="website_text">сайт для компании, продажи <br>товара или услуги, личная<br> страница или портфолио</div>
+        <div class="website_day">от 10 дней</div>
+        <div class="website_price">от 50000 руб.</div>
+        <div class="arrow_1"><img src="img/arrow_1.png" alt="стрелка"></div>
+        <picture class="Line7">
+            <img src="img/Line7.png" alt="работа">
+        </picture>
+        <div class="website_two">многостраничный сайт</div>
+        <div class="website_text_two">сайт для компании, продажи <br>товара или услуги, личная<br> страница или портфолио</div>
+        <div class="website_day_two">от 20 дней</div>
+        <div class="website_price_two">от 80000 руб.</div>
+        <div class="arrow_2"><img src="img/arrow_2.png" alt="стрелка"></div>
+        <picture class="Line8">
+            <img src="img/Line8.png" alt="работа">
+        </picture>
+        <div class="online_store">интернет-магазин</div>
+        <div class="online_store_text">сайт для компании, продажи <br>товара или услуги, личная<br> страница или портфолио</div>
+        <div class="online_store_day">от 20 дней</div>
+        <div class="online_store_price">от 150000 руб.</div>
+        <div class="arrow_3"><img src="img/arrow_3.png" alt="стрелка"></div>
+        <picture class="Line9">
+            <img src="img/Line9.png" alt="работа">
+        </picture>
+    </div>
+    
+    
+</body>
+</html>
+
+    
+
+
+
+    

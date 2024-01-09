@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>NEW DESIGN</title>
+    <link rel="shortcut icon" href="img/ND.png" type="image/png">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <picture class="ND">
+                    <a href="main.html">
+                        <figure>
+                            <img src="img/ND.png" alt="ND" >
+                        </figure>
+                    </a>
+                </picture>
+                <li><a href="portfolio2.html">ПОРТФОЛИО</a></li>
+                <li><a href="stages.html">УСЛУГИ</a></li>
+                <li><a href="aboutme.html">ОБО МНЕ</a></li>
+                <li><a href="#contacts">КОНТАКТЫ</a></li>
+                <picture class="ND3">
+                    <a href="main.html">
+                        <figure>
+                            <img src="img/ND3.png" alt="ND3" >
+                        </figure>
+                    </a>
+                </picture>
+            </ul>
+        </nav>
+    </header>
+    <div class="general">
+        <section class="title">
+            <div class="NEW_DESIGN">
+                <h1>NEW DESIGN</h1>
+            </div>
+        </section>
+        <div>
+            <div class="button">
+                <picture class="fon">
+                    <a href="#" id="open_pop_up">
+                        <img src="img/fon.png" alt="альтернативный текст">
+                    </a>
+                </picture>
+            </div>
+            <div class="pop_up" id="pop_up">
+                <div class="pop_up_container">
+                    <div class="pop_up_body" id="pop_up_body">
+                        <p>ОСТАВИТЬ ЗАЯВКУ</p>
+                        <form action="">
+                            <input type="text" placeholder="Имя">
+                            <input type="text" placeholder="Телефон">
+                            <input type="text" placeholder="E-mail">
+                            <input type="text" placeholder="Расскажите о своем проекте">
+                            <button>ОТПРАВИТЬ</button>
+                        </form>
+                        <div class="pop_up_close" id="pop_up_close">&#10006</div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <script>
+            const openPopUp = document.getElementById('open_pop_up');
+            const closePopUp = document.getElementById('pop_up_close');
+            const popUp = document.getElementById('pop_up');
+
+            openPopUp.addEventListener('click', function(e){
+                e. preventDefault();
+                popUp.classList.add('active');
+            })
+
+            closePopUp.addEventListener('click', () =>{
+            popUp.classList.remove('active');
+            })
+        </script>
+        <div>             
+            <picture class="circle">
+                <img src="img/circle.png" alt="альтернативный текст">
+            </picture>
+            <picture class="circle2">
+                <img src="img/circle2.png" alt="альтернативный текст">
+            </picture>
+            
+            <div class="leave">оставить   заявку</div>
+            <picture class="Arrow">
+                <img src="img/Arrow.png" alt="альтернативный текст">
+            </picture>
+            <picture class="Arrow2">
+                <img src="img/Arrow2.png" alt="альтернативный текст">
+            </picture>
+        <div>
+    </div> 
+    <div>
+        <div class="marquee-infinite">
+            <div>
+                <h2>NEW DESIGN NEW DESIGN NEW DESIGN NEW DESIGN NEW DESIGN NEW DESIGN NEW DESIGN NEW DESIGN NEW DESIGN NEW DESIGN</h2>
+                <h2>NEW DESIGN NEW DESIGN NEW DESIGN NEW DESIGN NEW DESIGN NEW DESIGN NEW DESIGN NEW DESIGN NEW DESIGN NEW DESIGN</h2>
+            </div>
+        </div>
+    </div> 
+    <div>
+        <picture class="nd2">
+            <img src="img/nd2.png" alt="альтернативный текст">
+        </picture>
+        <div class="wrap">
+            <div class="block">
+                <div class="designing"><img src="img/designing.png" alt="альтернативный текст"></div>
+            </div>
+        </div>
+    </div>  
+    <div>
+        <picture class="black1">
+            <img src="img/black1.png" alt="альтернативный текст">
+        </picture>
+        <div class="send">ОТПРАВЬТЕ ЗАЯВКУ, ЧТОБЫ НАЧАТЬ<br>РАБОТУ НАД ВАШИМ САЙТОМ</div>
+        <div class="form">ЗАПОЛНИТЕ ФОРМУ И Я СВЯЖУСЬ С ВАМИ</div>
+    </div>
+    <div>
+        <div class="button">
+            <picture class="fon2">
+                <a href="#" id="openpopup">
+                    <img src="img/fon2.png" alt="альтернативный текст">
+                </a>
+            </picture>
+        </div>
+        <div class="popup" id="popup">
+            <div class="popupcontainer">
+                <div class="popupbody" id="popupbody">
+                    <p>ОТПРАВИТЬ</p>
+                    <form action="">
+                        <input type="text" placeholder="Имя">
+                        <input type="text" placeholder="Телефон">
+                        <input type="text" placeholder="E-mail">
+                        <input type="text" placeholder="Расскажите о своем проекте">
+                        <button>ОСТАВИТЬ ЗАЯВКУ</button>
+                    </form>
+                    <div class="popupclose" id="popupclose">&#10006</div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <script>
+        const openPopUp = document.getElementById('openpopup');
+        const closePopUp = document.getElementById('popupclose');
+        const popUp = document.getElementById('popup');
+
+        openPopUp.addEventListener('click', function(e){
+            e. preventDefault();
+            popUp.classList.add('active');
+        })
+
+        closePopUp.addEventListener('click', () =>{
+        popUp.classList.remove('active');
+        })
+    </script>  
+    <div class="advantages">
+        <body onload = 'animateText("dynamic-text", "ПРЕИМУЩЕВСТВА", 0);'>
+            <span id = 'dynamic-text'></span>
+        </body>
+        <script type="text/javascript">
+            function animateText(id, text, i) {
+              document.getElementById(id).innerHTML = text.substring(0, i);
+              i++;
+              if (i > text.length) i = 0;
+              setTimeout("animateText('" + id + "','" + text + "'," + i + ")", 100);
+            }
+        </script>
+    </div>
+        <div class="advantages1">РАБОТЫ СО МНОЙ</div>
+        <div class="points">
+            <div class="hover-text-one">
+                <figure class="effect-text-three">
+                    <img src="img/1.png" alt="">
+                    <figcaption>
+                        <a>1. ПРОРАБАТЫВАЮ</a>
+                        <p>СОВРЕМЕННЫЙ ДИЗАЙН САЙТА И СЛЕДУЮ СОВРЕМЕННЫМ ТЕНДЕНЦИЯМ</p>
+                    </figcaption>			
+                </figure>
+            </div>
+            <div class="hover-text-one">
+                <figure class="effect-text-three">
+                    <img src="img/1.png" alt="">
+                    <figcaption>
+                        <b1>2. РАЗРАБАТЫВАЮ</b1>
+                        <p>ДИЗАЙН С НУЛЯ И ОБНОВЛЯЮ УЖЕ СУЩЕСТВУЮЩИЙ</p>
+                    </figcaption>			
+                </figure>
+            </div>
+            <div class="hover-text-one">
+                <figure class="effect-text-three">
+                    <img src="img/1.png" alt="">
+                    <figcaption>
+                        <c>3. СОЗДАЮ</c>
+                        <p>ПРОДАЮЩИЙ САЙТ ДЛЯ ВАШЕГО БИЗНЕСА И ДОНОШУ ЦЕННОСТЬ ВАШЕГО ПРОДУКТА</p>
+                    </figcaption>			
+                </figure>
+            </div>
+            <div class="hover-text-one">
+                <figure class="effect-text-three">
+                    <img src="img/1.png" alt="">
+                    <figcaption>
+                        <d>4. ДЕЛАЮ</d>
+                        <p>КАЖДЫЙ ПРОЕКТ, КАК ДЛЯ СЕБЯ</p>
+                    </figcaption>			
+                </figure>
+            </div>
+        </div>           
+    </div> 
+    <div>
+        <div class="container">
+            
+            <div class="contacts" id="contacts">К &nbsp; &nbsp; О &nbsp; &nbsp; Н &nbsp; &nbsp; Т &nbsp; &nbsp; А &nbsp; &nbsp; К &nbsp; &nbsp; Т &nbsp; &nbsp; Ы</div>
+            <picture class="black_con">
+                <img src="img/black_con.png" alt="альтернативный текст">
+            </picture>
+            <picture class="white_con">
+                <img src="img/white_con.png" alt="альтернативный текст">
+            </picture>
+            <picture class="Line5">
+                <img src="img/Line5.png" alt="альтернативный текст">
+            </picture>
+            <div class="Connection">Связь со мной:</div>
+            <div class="mail">argaritademsh@gmail.com</div>
+            <div class="telephone">+7 (999) 843 44 54</div>
+            <div class="networks">Социальные сети:</div>
+            <picture class="tilda">
+                <a href="https://experts.tilda.cc/margaritademshina">
+                    <img src="img/tilda.png" alt="альтернативный текст">
+                </a>
+            </picture>
+            <picture class="tg">
+                <a href="https://t.me/margaritademshina">
+                    <img src="img/tg.png" alt="альтернативный текст">
+                </a>
+            </picture>
+            <picture class="inst">
+                <a href="https://instagram.com/margaritademshina?igshid=YmMyMTA2M2Y=">
+                    <img src="img/inst.png" alt="альтернативный текст">
+                </a>
+            </picture>
+            <picture class="wa">
+                <a href="https://api.whatsapp.com/send/?phone=79998434454&text&type=phone_number&app_absent=0" >
+                    <img src="img/wa.png" alt="альтернативный текст">
+                </a>
+            </picture>
+            <picture class="point">
+                <img src="img/point.png" alt="альтернативный текст">
+            </picture>
+            <div class="request">оставьте заявку, я вам перезвоню в ближайшее время,<br> или свяжитесь со мной напрямую по контактам ниже</div>
+            <div class="Moscow">Москва</div>
+            <div class="ip">ип демшина маргарита алифовна<br>инн 583410725480</div>
+            
+            <div class="confidentiality"><ul><li><a href="main.html">политика конфиденциальности</a></li></ul></div>
+            
+        </div>
+    
+    
+    
