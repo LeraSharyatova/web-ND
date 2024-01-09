@@ -1,0 +1,618 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 2000px;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+header{
+    background: #FAFAFA;
+    padding: 0px 0;
+    height: 120px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    margin-top: 52px;
+    margin-left: 100px;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Century Gothic';
+    font-size: 20px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    font-family: 'Century Gothic';
+    
+}
+
+.ND{
+    margin-top: 15px;
+    margin-left: 90px;
+}
+
+.ND3{
+    margin-top: 15px;
+    margin-left: 120px;
+}
+
+.stage{
+    height: 160px;
+    top: 15px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 575;
+    font-size: 80px;
+    line-height: 162px;
+    color: #000000;
+    margin-left: 75px;
+    text-decoration:#000000;
+}
+.stages{
+    height: 160px;
+    margin-top: -70px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 575;
+    font-size: 80px;
+    line-height: 162px;
+    color: #000000;
+    margin-left: 75px;
+    text-decoration:#000000;
+}
+
+.framework{
+    position: absolute;
+    height: 200px;
+    margin-top: -250px;
+    margin-left: 50px;
+}
+
+.grey_one{
+    position: absolute;
+    width: 1071.06px;
+    height: 192px;
+    margin-top: 0px;
+    margin-left: 350px;
+
+}
+.grey_two{
+    position: absolute;
+    width: 800px;
+    height: 192px;
+    margin-top: 210px;
+    margin-left: 535px;
+}
+.grey_tree{
+    position: absolute;
+    width: 650px;
+    height: 192px;
+    margin-top: 420px;
+    margin-left: 755px;
+}
+.grey_four{
+    position: absolute;
+    width: 800px;
+    height: 192px;
+    margin-top: 632px;
+    margin-left: 560px;
+}
+.grey_five{
+    position: absolute;
+    width: 1071.06px;
+    height: 192px;
+    margin-top: 844px;
+    margin-left: 370px;
+}
+
+
+
+
+.one{
+    margin-top: 20px;
+    margin-left: 390px;
+    z-index: 2;
+    position: absolute;
+    color: #000000;
+    font-size: 40px;
+    font-family: 'Century Gothic';
+    
+}
+.one_s{
+    margin-top: 20px;
+    margin-left: 1120px;
+    z-index: 2;
+    position: absolute;
+    color: #000000;
+    font-size: 40px;
+    font-family: 'Century Gothic';
+}
+.one_text{
+    margin-top: 90px;
+    margin-left: 530px;
+    z-index: 2;
+    position: absolute;
+    color: #000000;
+    font-size: 25px;
+    font-family: 'Century Gothic';
+    text-align: right;
+}
+
+
+
+
+.two{
+    margin-top: 230px;
+    margin-left: 570px;
+    z-index: 2;
+    position: absolute;
+    color: #000000;
+    font-size: 40px;
+    font-family: 'Century Gothic';
+}
+.two_s{
+    margin-top: 230px;
+    margin-left: 1180px;
+    z-index: 2;
+    position: absolute;
+    color: #000000;
+    font-size: 40px;
+    font-family: 'Century Gothic';
+}
+.two_text{
+    margin-top: 300px;
+    margin-left: 580px;
+    z-index: 2;
+    position: absolute;
+    color: #000000;
+    font-size: 25px;
+    font-family: 'Century Gothic';
+    text-align: right;
+}
+
+
+
+
+.tree{
+    margin-top: 440px;
+    margin-left: 790px;
+    z-index: 2;
+    position: absolute;
+    color: #000000;
+    font-size: 40px;
+    font-family: 'Century Gothic';
+}
+.tree_s{
+    margin-top:440px;
+    margin-left: 1070px;
+    z-index: 2;
+    position: absolute;
+    color: #000000;
+    font-size: 40px;
+    font-family: 'Century Gothic';
+}
+.tree_text{
+    margin-top: 510px;
+    margin-left: 900px;
+    z-index: 2;
+    position: absolute;
+    color: #000000;
+    font-size: 22px;
+    font-family: 'Century Gothic';
+    text-align: right;
+}
+
+
+
+
+
+
+.four{
+    margin-top: 650px;
+    margin-left: 590px;
+    z-index: 2;
+    position: absolute;
+    color: #000000;
+    font-size: 40px;
+    font-family: 'Century Gothic';
+}
+.four_s{
+    margin-top: 650px;
+    margin-left: 1020px;
+    z-index: 2;
+    position: absolute;
+    color: #000000;
+    font-size: 40px;
+    font-family: 'Century Gothic';
+}
+.four_text{
+    margin-top: 740px;
+    margin-left: 610px;
+    z-index: 2;
+    position: absolute;
+    color: #000000;
+    font-size: 25px;
+    font-family: 'Century Gothic';
+    text-align: right;
+    
+}
+
+
+.five{
+    margin-top: 860px;
+    margin-left: 400px;
+    z-index: 2;
+    position: absolute;
+    color: #000000;
+    font-size: 40px;
+    font-family: 'Century Gothic';
+}
+.five_s{
+    margin-top: 860px;
+    margin-left: 1000px;
+    z-index: 2;
+    position: absolute;
+    color: #000000;
+    font-size: 40px;
+    font-family: 'Century Gothic';
+}
+.five_text{
+    margin-top: 950px;
+    margin-left: 820px;
+    z-index: 2;
+    position: absolute;
+    color: #000000;
+    font-size: 25px;
+    font-family: 'Century Gothic';
+    text-align: right;
+}
+
+.general{
+    background-image: url(img/stagesND.png);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 797.02px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.star1{
+    position: absolute;
+    width: 800px;
+    height: 192px;
+    margin-top: 100px;
+    margin-left: 140px;
+    transition: 1s;
+    display: block;
+}
+.hot:hover .star1{
+    transform: scale(1.2);
+}
+
+.star2{
+    position: absolute;
+    width: 800px;
+    height: 192px;
+    margin-top: 400px;
+    margin-left: 190px;
+    transition: 1s;
+    display: block;
+}
+.hot:hover .star2{
+    transform: scale(1.2);
+}
+
+.star3{
+    position: absolute;
+    width: 800px;
+    height: 192px;
+    margin-top: 400px;
+    margin-left: 90px;
+    transition: 1s;
+    display: block;
+}
+.hot:hover .star3{
+    transform: scale(1.2);
+}
+
+
+
+.cost{
+    height: 160px;
+    margin-top: 1100px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 575;
+    font-size: 90px;
+    line-height: 162px;
+    color: #000000;
+    margin-left: 70px;
+    text-decoration:#000000;
+    text-align: center;
+}
+
+.services{
+    background-image: url(img/stagesND.png);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 800px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.website_one{
+    margin-top: 50px;
+    margin-left: 70px;
+    z-index: 2;
+    position: absolute;
+    color: #000000;
+    font-size: 40px;
+    font-family: 'Century Gothic';
+    text-align: left;
+    font-weight: 520;
+}
+.website_text{
+    margin-top: 120px;
+    margin-left: 70px;
+    z-index: 2;
+    position: absolute;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Century Gothic';
+    text-align: left;
+    
+}
+.website_day{
+    margin-top: 220px;
+    margin-left: 70px;
+    z-index: 2;
+    position: absolute;
+    color: #000000;
+    font-size: 15px;
+    font-family: 'Century Gothic';
+    text-align: left;
+}
+
+.website_price{
+    margin-top: 50px;
+    margin-left: 1170px;
+    z-index: 2;
+    position: absolute;
+    color: #000000;
+    font-size: 35px;
+    font-family: 'Century Gothic';
+    text-align: left;
+    font-weight: 520;
+}
+
+
+
+
+.website_two{
+    margin-top: 270px;
+    margin-left: 70px;
+    z-index: 2;
+    position: absolute;
+    color: #000000;
+    font-size: 40px;
+    font-family: 'Century Gothic';
+    text-align: left;
+    font-weight: 520;
+}
+.website_text_two{
+    margin-top: 340px;
+    margin-left: 70px;
+    z-index: 2;
+    position: absolute;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Century Gothic';
+    text-align: left;
+    
+}
+.website_day_two{
+    margin-top: 440px;
+    margin-left: 70px;
+    z-index: 2;
+    position: absolute;
+    color: #000000;
+    font-size: 15px;
+    font-family: 'Century Gothic';
+    text-align: left;
+}
+
+.website_price_two{
+    margin-top: 270px;
+    margin-left: 1170px;
+    z-index: 2;
+    position: absolute;
+    color: #000000;
+    font-size: 35px;
+    font-family: 'Century Gothic';
+    text-align: left;
+    font-weight: 520;
+}
+
+
+.online_store{
+    margin-top: 500px;
+    margin-left: 70px;
+    z-index: 2;
+    position: absolute;
+    color: #000000;
+    font-size: 40px;
+    font-family: 'Century Gothic';
+    text-align: left;
+    font-weight: 520;
+}
+.online_store_text{
+    margin-top: 570px;
+    margin-left: 70px;
+    z-index: 2;
+    position: absolute;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Century Gothic';
+    text-align: left;
+    
+}
+.online_store_day{
+    margin-top: 670px;
+    margin-left: 70px;
+    z-index: 2;
+    position: absolute;
+    color: #000000;
+    font-size: 15px;
+    font-family: 'Century Gothic';
+    text-align: left;
+}
+
+.online_store_price{
+    margin-top: 500px;
+    margin-left: 1170px;
+    z-index: 2;
+    position: absolute;
+    color: #000000;
+    font-size: 35px;
+    font-family: 'Century Gothic';
+    text-align: left;
+    font-weight: 520;
+}
+
+
+.arrow_1 {
+    animation: move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes move {
+    from {
+      transform: translateX(0px);
+    }
+    to {
+      transform: translateX(300px);
+    }
+}
+.arrow_1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 72px;
+    height: 0px;
+    margin-left: 632px;
+    margin-top: 70px;
+}
+
+.arrow_2 {
+    animation: move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes move {
+    from {
+      transform: translateX(0px);
+    }
+    to {
+      transform: translateX(300px);
+    }
+}
+.arrow_2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 72px;
+    height: 0px;
+    margin-left: 632px;
+    margin-top: 280px;
+}
+
+.arrow_3 {
+    animation: move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes move {
+    from {
+      transform: translateX(0px);
+    }
+    to {
+      transform: translateX(300px);
+    }
+}
+.arrow_3 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 72px;
+    height: 0px;
+    margin-left: 632px;
+    margin-top: 510px;
+}
+
+
+.Line10{
+    margin-left: 140px;
+    margin-top: 10px;
+}
+.Line7{
+    margin-left: 140px;
+    margin-top: 220px;
+}
+.Line8{
+    margin-left: 140px;
+    margin-top: 210px;
+}
+.Line9{
+    margin-left: 140px;
+    margin-top: 220px;
+}
+  
+
+
+.btn {
+    width: 120px;
+    height: 40px;
+    background: #000000;
+    text-align: center;
+    line-height: 40px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #fff;
+    position: absolute;
+    top:  350px;
+    left: 50px;
+
+}
+
+.star1{
+    position: absolute;
+    width: 800px;
+    height: 192px;
+    margin-top: 200px;
+    margin-left: 140px;
+    transition: 5s;
+    display: block;
+}

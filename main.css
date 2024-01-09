@@ -1,0 +1,1358 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 2000px;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+header{
+    background: #FAFAFA;
+    padding: 0px 0;
+    height: 120px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    margin-top: 52px;
+    margin-left: 100px;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Century Gothic';
+    font-size: 20px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    font-family: 'Century Gothic';
+    
+}
+
+.ND{
+    margin-top: 15px;
+    margin-left: 90px;
+}
+
+.ND3{
+    margin-top: 15px;
+    margin-left: 120px;
+}
+
+
+.general{
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 900px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.NEW_DESIGN{
+    position: absolute;
+    width: 1200px;
+    height: 307px;
+    margin-left:140px;
+    margin-top: 100px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 130px;
+    line-height: 100px;
+    color: rgb(162, 162, 162);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    white-space: nowrap;
+}
+
+.fon{
+    position: absolute;
+    width: 1219px;
+    height: 105px;
+    margin-left: -660px;
+    margin-top: 546px;
+    border-radius: 24px;
+}
+
+
+.button {
+    margin-top: 15px;
+    text-align: center;
+    
+}
+.button a {
+    font-family: 'Century Gothic';
+    
+    padding: 20px 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+
+.pop_up {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: Rgba(0, 0, 0, .8);
+    z-index: 2;
+}
+
+.pop_up_container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+.pop_up_body {
+    margin: auto;
+    width: 500px;
+    background-color: #b1b1b1;
+    border-radius: 30px;
+    text-align: center;
+    padding: 100px 15px 110px 15px;
+    position: relative;
+    
+}
+
+.pop_up_body p{
+    font-size: 28px;
+    
+    font-weight: 600;
+    color: #000000;
+    font-family: 'Century Gothic';
+}
+
+.pop_up_body input {
+    display: block;
+    margin: 25px auto 0px auto;
+    width: 330px;
+    padding: 17px 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Century Gothic';
+    font-weight: 500;
+    font-size: 18px;
+    color: 0#89909F;
+}
+.pop_up_body input:focus {
+    outline: none;
+}
+
+.pop_up_body button {
+    cursor: pointer;
+    display: block;
+    width: 330px;
+    margin: 60px auto 0px auto;
+    padding: 20px 0px;
+    font-family: 'Century Gothic';
+    font-weight: 500;
+    font-size: 20px;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+}
+
+.pop_up_close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.pop_up.active {
+    display: block;
+}
+
+
+
+.circle{
+    position: absolute;
+    width: 71px;
+    height: 71px;
+    margin-left: 150px;
+    margin-top: 565px;
+    background: #C2DEFF;
+    border-radius: 35.5px;
+}
+
+.circle2{
+    position: absolute;
+    width: 71px;
+    height: 71px;
+    margin-left: 1250px;
+    margin-top: 565px;
+    background: #C2DEFF;
+    border-radius: 35.5px;
+}
+
+
+.leave{
+    position: absolute;
+    width: 496px;
+    height: 45px;
+    margin-left: 550px;
+    margin-top: 580px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 36px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.Arrow{
+    box-sizing: border-box;
+    position: absolute;
+    width: 44px;
+    height: 0px;
+    margin-left: 1260px;
+    margin-top: 580px;
+
+}
+
+.Arrow2{
+    box-sizing: border-box;
+    position: absolute;
+    width: 44px;
+    height: 0px;
+    margin-left: 160px;
+    margin-top: 580px;
+    
+}
+
+.nd2{
+    position: absolute;
+    width: 1280px;
+    height: 793px;
+    margin-left: -1300px;
+    margin-top: 546px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 116px;
+    text-transform: uppercase;
+    color: rgba(145, 145, 145, 0.1);
+
+}
+
+
+.designing{
+    position: absolute;
+    width: 1006px;
+    height: 502px;
+    margin-left: -100px;
+    margin-top: 246px;
+    transition: 0.5s;
+    background: url(image.png);
+    border-radius: 55px;
+    position: absolute;
+    object-fit: cover;
+    z-index: 10;
+}
+.wrap{
+    height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.block {
+    width: 50%;
+}
+.designing img {
+    width: 100%;
+    height: 100%;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    -o-transition: transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.designing:hover img {
+    -webkit-transform: scale(1.1);
+    -ms-transform:scale(1.1);
+    transform:scale(1.1);
+}
+
+.marquee-infinite{
+    margin: 885px auto;
+    border: 1px solid #000;
+    max-width: 100%;
+    overflow: hidden;
+    font-family: 'Century Gothic';
+}
+.marquee-infinite div{
+    display: flex;
+    width: 200%;
+    animation: marquee-infinite 5s linear infinite;
+    
+}
+.marquee-infinite h2{
+    white-space: nowrap;
+    width: 100%;
+    
+}
+@keyframes marquee-infinite{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-50%);
+    }
+}
+
+
+
+.wrap{
+    height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-left: 0px;
+    margin-top: -1400px;
+}
+
+.block {
+    width: 50%;
+}
+.designing img {
+    width: 100%;
+    height: 100%;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    -o-transition: transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.designing:hover img {
+    -webkit-transform: scale(1.1);
+    -ms-transform:scale(1.1);
+    transform:scale(1.1);
+}
+
+.nd2{
+    position: absolute;
+    width: 1280px;
+    height: 793px;
+    margin-left: 100px;
+    margin-top: 530px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 116px;
+    text-transform: uppercase;
+    color: rgba(145, 145, 145, 0.1);
+
+}
+
+
+.black1{
+    position: absolute;
+    width: 1156px;
+    height: 514px;
+    margin-left: 170px;
+    margin-top: 546px;
+    
+}
+
+.send{
+    position: absolute;
+    width: 973px;
+    height: 1189px;
+    margin-left: 250px;
+    margin-top: 600px;
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #DBDBDB;
+}
+.form{
+    position: absolute;
+    width: 519px;
+    height: 29px;
+    margin-left: 475px;
+    margin-top: 750px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #909090;
+}
+.fon2{
+    position: absolute;
+    margin-left: -330px;
+    margin-top: 850px;
+    border-radius: 22px;
+}
+
+.button {
+    margin-top: 15px;
+    text-align: center;
+    
+}
+.button a {
+    font-family: 'Century Gothic';
+    
+    padding: 20px 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+
+.popup {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 30px;
+    background-color: Rgba(0, 0, 0, .8);
+    z-index: 2;
+}
+
+.popupcontainer{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+.popupbody {
+    margin: auto;
+    width: 500px;
+    background-color: #fff;
+    border-radius: 30px;
+    text-align: center;
+    padding: 100px 15px 110px 15px;
+    position: relative;
+    
+}
+
+.popupbody p{
+    font-size: 28px;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: #000000;
+    font-family: 'Century Gothic';
+}
+
+.popupbody input {
+    display: block;
+    margin: 25px auto 0px auto;
+    width: 330px;
+    padding: 17px 20px;
+    background-color: #e2e2e2;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Century Gothic';
+    font-weight: 500;
+    font-size: 18px;
+    color: 0#89909F;
+}
+.popupbody input:focus {
+    outline: none;
+}
+
+.popupbody button {
+    cursor: pointer;
+    display: block;
+    width: 330px;
+    margin: 60px auto 0px auto;
+    padding: 20px 0px;
+    font-family: 'Century Gothic';
+    font-weight: 500;
+    font-size: 20px;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+}
+
+.popupclose {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.popup.active {
+    display: block;
+}
+
+
+.s1{
+    position: absolute;
+    width: 898px;
+    height: 232px;
+    margin-left: 295px;
+    margin-top: 4350px;
+    background: url(image.png);
+    border-radius: 70px;
+
+}
+.points{
+    margin-top: 1300px;
+}
+
+.advantages{
+    position: absolute;
+    width: 846px;
+    height: 125px;
+    margin-left:300px;
+    margin-top: 1090px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 575;
+    font-size: 100px;
+    line-height: 125px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.advantages1{
+    position: absolute;
+    width: 846px;
+    height: 125px;
+    margin-left: 600px;
+    margin-top: 1200px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 57;
+    font-size: 30px;
+    line-height: 125px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+
+
+
+
+
+
+/*ПЕРВОЕ*/
+
+
+
+
+
+
+*, *:after, *:before { 
+    box-sizing: border-box; 
+}
+.clearfix:before, .clearfix:after { 
+	content: ''; 
+	display: table; 
+}
+.clearfix:after { 
+	clear: both; 
+}
+.hover-text-one {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 100%;
+	list-style: none;
+	text-align: center;
+    border-radius: 55px;
+}
+.hover-text-one figure {
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	overflow: hidden;
+	background: #527c82;
+	text-align: center;
+	cursor: pointer;
+}
+.hover-text-one figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	opacity: 0.8;
+}
+.hover-text-one figure figcaption {
+	padding: 2em;
+	color: #000000;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.hover-text-one figure figcaption::before,
+.hover-text-one figure figcaption::after {
+	pointer-events: none;
+}
+.hover-text-one figure figcaption{/*текст*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+    font-family: 'Century Gothic';
+    font-size: 30px;
+}
+.hover-text-one figure a {
+	word-spacing: -0.15em;
+	font-weight: 300;
+}
+.hover-text-one figure a span {
+	font-weight: 800;
+}
+.hover-text-one figure a,
+.hover-text-one figure p {
+	margin: 0;
+}
+.hover-text-one figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+
+/* Эффект при наведении и фон */
+figure.effect-text-three {
+	background: #fdfdfd;
+    border-radius: 70px;
+}
+figure.effect-text-three img {
+	width: -webkit-calc(100% + 20px);
+	width: calc(100% + 20px);
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	transform: scale(1.1);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+figure.effect-text-three:hover img {
+	opacity: 0.4;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+figure.effect-text-three figcaption {
+	text-align: left;
+}
+figure.effect-text-three a {
+	position: relative;
+	overflow: hidden;
+	padding: 0.5em 0;
+}
+figure.effect-text-three a::after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	
+	content: '';
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(-100%,0,0);
+	transform: translate3d(-100%,0,0);
+}
+figure.effect-text-three:hover a::after {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+figure.effect-text-three p {
+	padding: 1em 0;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(100%,0,0);
+	transform: translate3d(100%,0,0);
+}
+figure.effect-text-three:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+
+
+
+
+
+
+
+/*ВТОРОЕ*/
+
+*, *:after, *:before { 
+    box-sizing: border-box; 
+}
+.clearfix:before, .clearfix:after { 
+	content: ''; 
+	display: table; 
+}
+.clearfix:after { 
+	clear: both; 
+}
+.hover-text-one {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 100%;
+	list-style: none;
+	text-align: center;
+    border-radius: 55px;
+}
+.hover-text-one figure {
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	overflow: hidden;
+	background: #527c82;
+	text-align: center;
+	cursor: pointer;
+}
+.hover-text-one figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	opacity: 0.8;
+}
+.hover-text-one figure figcaption {
+	padding: 2em;
+	color: #000000;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.hover-text-one figure figcaption::before,
+.hover-text-one figure figcaption::after {
+	pointer-events: none;
+}
+.hover-text-one figure figcaption{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+    font-family: 'Century Gothic';
+    font-size: 30px;
+}
+.hover-text-one figure b1 {
+	word-spacing: -0.15em;
+	font-weight: 300;
+}
+.hover-text-one figure h4 span {
+	font-weight: 800;
+}
+.hover-text-one figure b1,
+.hover-text-one figure p {
+	margin: 0;
+}
+.hover-text-one figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+
+
+figure.effect-text-three {
+	background: #fdfdfd;
+    border-radius: 70px;
+}
+figure.effect-text-three img {
+	width: -webkit-calc(100% + 20px);
+	width: calc(100% + 20px);
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	transform: scale(1.1);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+figure.effect-text-three:hover img {
+	opacity: 0.4;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+figure.effect-text-three figcaption {
+	text-align: left;
+}
+figure.effect-text-three b1 {
+	position: relative;
+	overflow: hidden;
+	padding: 0.5em 0;
+}
+figure.effect-text-three b1::after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	
+	content: '';
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(-100%,0,0);
+	transform: translate3d(-100%,0,0);
+}
+figure.effect-text-three:hover b1::after {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+figure.effect-text-three p {
+	padding: 1em 0;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(100%,0,0);
+	transform: translate3d(100%,0,0);
+}
+figure.effect-text-three:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ТРЕТЬЕ*/
+
+
+
+
+*, *:after, *:before { 
+    box-sizing: border-box; 
+}
+.clearfix:before, .clearfix:after { 
+	content: ''; 
+	display: table; 
+}
+.clearfix:after { 
+	clear: both; 
+}
+.hover-text-one {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 100%;
+	list-style: none;
+	text-align: center;
+    border-radius: 55px;
+}
+.hover-text-one figure {
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	overflow: hidden;
+	background: #527c82;
+	text-align: center;
+	cursor: pointer;
+}
+.hover-text-one figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	opacity: 0.8;
+}
+.hover-text-one figure figcaption {
+	padding: 2em;
+	color: #000000;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.hover-text-one figure figcaption::before,
+.hover-text-one figure figcaption::after {
+	pointer-events: none;
+}
+.hover-text-one figure figcaption{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+    font-family: 'Century Gothic';
+    font-size: 30px;
+}
+.hover-text-one figure c {
+	word-spacing: -0.15em;
+	font-weight: 300;
+}
+.hover-text-one figure c span {
+	font-weight: 800;
+}
+.hover-text-one figure c,
+.hover-text-one figure p {
+	margin: 0;
+}
+.hover-text-one figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+
+
+figure.effect-text-three {
+	background: #fdfdfd;
+    border-radius: 70px;
+}
+figure.effect-text-three img {
+	width: -webkit-calc(100% + 20px);
+	width: calc(100% + 20px);
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	transform: scale(1.1);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+figure.effect-text-three:hover img {
+	opacity: 0.4;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+figure.effect-text-three figcaption {
+	text-align: left;
+}
+figure.effect-text-three c {
+	position: relative;
+	overflow: hidden;
+	padding: 0.5em 0;
+}
+figure.effect-text-three h4::after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	
+	content: '';
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(-100%,0,0);
+	transform: translate3d(-100%,0,0);
+}
+figure.effect-text-three:hover c::after {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+figure.effect-text-three p {
+	padding: 1em 0;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(100%,0,0);
+	transform: translate3d(100%,0,0);
+}
+figure.effect-text-three:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+
+
+
+
+
+/*ЧЕТРВЕРТОЕ*/
+
+
+
+
+
+*, *:after, *:before { 
+    box-sizing: border-box; 
+}
+.clearfix:before, .clearfix:after { 
+	content: ''; 
+	display: table; 
+}
+.clearfix:after { 
+	clear: both; 
+}
+.hover-text-one {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 100%;
+	list-style: none;
+	text-align: center;
+    border-radius: 55px;
+}
+.hover-text-one figure {
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	overflow: hidden;
+	background: #527c82;
+	text-align: center;
+	cursor: pointer;
+}
+.hover-text-one figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	opacity: 0.8;
+}
+.hover-text-one figure figcaption {
+	padding: 2em;
+	color: #000000;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.hover-text-one figure figcaption::before,
+.hover-text-one figure figcaption::after {
+	pointer-events: none;
+}
+.hover-text-one figure figcaption{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+    font-family: 'Century Gothic';
+    font-size: 30px;
+}
+.hover-text-one figure d {
+	word-spacing: -0.15em;
+	font-weight: 300;
+}
+.hover-text-one figure d span {
+	font-weight: 800;
+}
+.hover-text-one figure d,
+.hover-text-one figure p {
+	margin: 0;
+}
+.hover-text-one figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+
+figure.effect-text-three {
+	background: #fdfdfd;
+    border-radius: 70px;
+}
+figure.effect-text-three img {
+	width: -webkit-calc(100% + 20px);
+	width: calc(100% + 20px);
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	transform: scale(1.1);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+figure.effect-text-three:hover img {
+	opacity: 0.4;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+figure.effect-text-three figcaption {
+	text-align: left;
+}
+figure.effect-text-three d {
+	position: relative;
+	overflow: hidden;
+	padding: 0.5em 0;
+}
+figure.effect-text-three ::after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	
+	content: '';
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(-100%,0,0);
+	transform: translate3d(-100%,0,0);
+}
+figure.effect-text-three:hover d::after {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+figure.effect-text-three p {
+	padding: 1em 0;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(100%,0,0);
+	transform: translate3d(100%,0,0);
+}
+figure.effect-text-three:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+
+.contacts{
+    position: absolute;
+    
+    left: 250px;
+    top: 3850px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 575;
+    font-size: 64px;
+    line-height: 80px;
+    color: #000000;
+    z-index: 2;
+    
+}
+
+.black_con{
+    position: absolute;
+    
+    left: calc(50% - 1280px/2);
+    top: 3767px;
+    border-radius: 100px;
+   
+}
+
+.white_con{
+    position: absolute;
+    
+    left: calc(50% - 1186px/2);
+    top: 3805px;
+    border-radius: 90px;
+    
+}
+
+.Line5{
+    position: absolute;
+    
+    left: calc(50% - 1000px/2 - 1px);
+    top: 3933px;
+}
+
+.Connection{
+    position: absolute;
+    
+    left: 200px;
+    top: 4050px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 520;
+    font-size: 32px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.mail{
+    position: absolute;
+    
+    left: 200px;
+    top: 4130px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 520;
+    font-size: 32px;
+    line-height: 40px;
+    color: #000000;
+}
+.telephone{
+    position: absolute;
+    
+    left: 200px;
+    top: 4210px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 520;
+    font-size: 32px;
+    line-height: 40px;
+    color: #000000;
+}
+.networks{
+    position: absolute;
+    
+    left: 980px;
+    top: 4050px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 520;
+    font-size: 32px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.tilda{ /*https://experts.tilda.cc/margaritademshina*/
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    margin-left: 895px;
+    margin-top: 385px;
+    border-radius: 16px;
+}
+
+.tg{ /*https://t.me/margaritademshina*/
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    margin-left: 1075px;
+    margin-top: 385px;
+}
+
+.inst{ /*https://instagram.com/margaritademshina?igshid=YmMyMTA2M2Y=*/
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    margin-left: 895px;
+    margin-top: 532px;
+}
+
+.wa{ /*https://api.whatsapp.com/send/?phone=79998434454&text&type=phone_number&app_absent=0*/
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    margin-left: 1075px;
+    margin-top: 532px;
+    border-radius: 16px;
+}
+
+
+.point{
+   position: absolute;
+    margin-left: 505px;
+    margin-top: 665px;
+    background: url(image); 
+}
+
+.request{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 350px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+}
+
+.Moscow{
+    position: absolute;
+    
+    margin-left: 570px;
+    margin-top: 700px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+}
+
+.ip{
+    position: absolute;
+    left: 200px;
+    top: 4420px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #000000;
+}
+
+
+.confidentiality{
+    position: absolute;
+    left: 200px;
+    top: 4460px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: black;
+    text-decoration: none;
+
+}
+.confidentiality ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.confidentiality li{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.confidentiality a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Century Gothic';
+    font-size: 12px;
+}
+.confidentiality a:hover{
+    text-decoration: underline;
+    font-family: 'Century Gothic';
+    
+}
+

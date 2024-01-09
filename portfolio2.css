@@ -1,0 +1,548 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+header{
+    background: #FAFAFA;
+    padding: 0px 0;
+    height: 120px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    margin-top: 52px;
+    margin-left: 100px;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Century Gothic';
+    font-size: 20px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    font-family: 'Century Gothic';
+    
+}
+
+.ND{
+    margin-top: 15px;
+    margin-left: 90px;
+}
+
+.ND3{
+    margin-top: 15px;
+    margin-left: 120px;
+}
+
+
+.container { /* размер страницы */
+    
+    max-width: 1280px;
+    margin: 0 auto;
+}
+* {
+    box-sizing: border-box;
+}
+
+.portfolio{
+    position: absolute;
+    height: 163px;
+    margin-left: 270px;
+    margin-top: 0px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 575;
+    font-size: 130px;
+    line-height: 162px;
+    color: #000000;
+}
+
+
+
+.pblack_minijoipet{
+    position: absolute;
+    height: 642px;
+    margin-left: 50px;
+    margin-top: 176px;
+    background: #000000;
+    border-radius: 71px;
+}
+.website_minijoipet{
+    position: absolute;
+    height: 63px;
+    margin-left: 100px;
+    margin-top: 700px;
+    background: url(image.png);
+    border-radius: 9px;
+}
+.made_minijoipet{
+    position: absolute;
+    width: 350px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 420px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 50;
+    font-size: 16px;
+    color: #ffffff;
+}
+.minijoipet{
+    position: absolute;
+    height: 214px;
+    margin-left: -230px;
+    margin-top: -190px;
+    background: url(image.png);
+    border-radius: 31px;
+}
+.wrap{
+    height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.block {
+    width: 50%;
+}
+.minijoipet img {
+    width: 100%;
+    height: 100%;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    -o-transition: transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.minijoipet:hover img {
+    -webkit-transform: scale(1.1);
+    -ms-transform:scale(1.1);
+    transform:scale(1.1);
+}
+
+.fon_minijoipet{
+    position: absolute;
+    height: 563.51px;
+    margin-left: 470px;
+    margin-top: -550px;
+    
+}
+
+
+.look_minijoipet{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 715px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    text-transform: lowercase;
+    color: #000000;
+}
+
+
+
+
+
+
+.pblack_carprice{
+    position: absolute;
+    height: 642px;
+    margin-left: 50px;
+    margin-top: 90px;
+    border-radius: 71px;
+}
+.website_carprice{
+    position: absolute;
+    height: 63px;
+    margin-left: 100px;
+    margin-top: 620px;
+    background: url(image.png);
+    border-radius: 9px;
+}
+
+.made_carprice{
+    position: absolute;
+    width: 350px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 270px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 50;
+    font-size: 16px;
+    color: #ffffff;
+}
+.carprice{
+    position: absolute;
+    margin-left: -230px;
+    margin-top: 150px;
+    top: 853px;
+    background: url(image.png);
+    border-radius: 31px;
+}
+.wrap{
+    height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.block {
+    width: 50%;
+}
+.carprice img {
+    
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    -o-transition: transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.carprice:hover img {
+    -webkit-transform: scale(1.1);
+    -ms-transform:scale(1.1);
+    transform:scale(1.1);
+}
+
+.fon_carprice{
+    position: absolute;
+    height: 559px;
+    margin-left: 470px;
+    margin-top: -640px;
+    
+    
+}
+
+.look_carprice{
+    position: absolute;
+    height: 100%;
+    margin-left: 130px;
+    margin-top: 635px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    text-transform: lowercase;
+    color: #000000;
+}
+
+
+
+
+
+
+.pblack_surfyou{
+    position: absolute;
+    height: 642px;
+    margin-left: 50px;
+    margin-top: 0px;
+    background: #000000;
+    border-radius: 71px;
+}
+.website_surfyou{   
+    position: absolute;
+    height: 63px;
+    margin-left: 100px;
+    margin-top: 530px;
+    background: url(image.png);
+    border-radius: 9px;
+}
+
+.made_surfyou{
+    position: absolute;
+    width: 350px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 215px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 50;
+    font-size: 16px;
+    color: #ffffff;
+}
+.surfyou{
+    position: absolute;
+
+    height: 214px;
+    margin-left: -230px;
+    margin-top: -355px;
+    background: url(image.png);
+    border-radius: 31px;
+}
+.wrap{
+    height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.block {
+    width: 50%;
+}
+.surfyou img {
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    -o-transition: transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.surfyou:hover img {
+    -webkit-transform: scale(1.1);
+    -ms-transform:scale(1.1);
+    transform:scale(1.1);
+}
+.fon_surfyou{
+    position: absolute;
+    height: 561.18px;
+    margin-left: 470px;
+    margin-top: -720px;
+}
+
+.look_surfyou{
+    position: absolute;
+    height: 100%;
+    margin-left: 130px;
+    margin-top: 545px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    text-transform: lowercase;
+    color: #000000;
+}
+
+
+
+
+
+.pblack_jmatelier{
+    position: absolute;
+    height: 642px;
+    margin-left: 50px;
+    margin-top: -90px;
+    background: #000000;
+    border-radius: 71px;
+}
+.website_jmatelier{
+    position: absolute;
+    height: 63px;
+    margin-left: 100px;
+    margin-top: 430px;
+    background: url(image.png);
+    border-radius: 9px;
+}
+
+.made_jmatelier{
+    position: absolute;
+    width: 350px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 170px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 50;
+    font-size: 16px; 
+    color: #ffffff;
+}
+.jmatelier{
+    position: absolute;
+    height: 214px;
+    margin-left: -230px;
+    margin-top: -450px;
+    background: url(image.png);
+    border-radius: 31px;
+}
+.wrap{
+    height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.block {
+    width: 50%;
+}
+.jmatelier img {
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    -o-transition: transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.jmatelier:hover img {
+    -webkit-transform: scale(1.1);
+    -ms-transform:scale(1.1);
+    transform:scale(1.1);
+}
+.fon_jmatelier{
+    position: absolute;
+    height: 555.92px;
+    margin-left: 470px;
+    margin-top: -820px;
+    background: url(image.png);
+}
+
+.look_jmatelier{
+    position: absolute;
+    height: 100%;
+    margin-left: 130px;
+    margin-top: 440px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    text-transform: lowercase;
+    color: #000000;
+}
+
+
+
+
+
+.pblack_nomblereptiles{
+    position: absolute;
+    
+    margin-left: 50px;
+    margin-top: -180px;
+    background: #000000;
+    border-radius: 71px;
+}
+.website_nomblereptiles{
+    position: absolute;
+    
+    margin-left: 100px;
+    margin-top: 350px;
+    background: url(image.png);
+    border-radius: 9px;
+}
+
+.made_nomblereptiles{
+    position: absolute;
+    width: 350px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 0px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 50;
+    font-size: 16px;   
+    color: #ffffff;
+}
+.nomblereptiles{
+    position: absolute;
+    margin-left: -230px;
+    margin-top: -520px;
+    background: url(image.png);
+    border-radius: 31px;
+}
+.wrap{
+    height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.block {
+    width: 50%;
+}
+.nomblereptiles img {
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    -o-transition: transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+}
+.nomblereptiles:hover img {
+    -webkit-transform: scale(1.1);
+    -ms-transform:scale(1.1);
+    transform:scale(1.1);
+}
+
+.fon_nomblereptiles{
+    position: absolute; 
+    margin-left: 470px;
+    margin-top: -900px;
+    background: url(image.png);
+}
+
+.look_nomblereptiles{
+    position: absolute;
+    margin-left: 125px;
+    margin-top: 360px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    text-transform: lowercase;
+    color:rgb(0, 0, 0);
+
+}

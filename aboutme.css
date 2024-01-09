@@ -1,0 +1,265 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+header{
+    background: #FAFAFA;
+    padding: 0px 0;
+    height: 120px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    margin-top: 52px;
+    margin-left: 100px;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Century Gothic';
+    font-size: 20px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    font-family: 'Century Gothic';
+    
+}
+
+.ND{
+    margin-top: 15px;
+    margin-left: 90px;
+}
+
+.ND3{
+    margin-top: 15px;
+    margin-left: 120px;
+}
+
+.general{
+    background-image: url(img/aboutme.png);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 797.02px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutme{
+    
+    height: 160px;
+    top: 15px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 575;
+    font-size: 130px;
+    line-height: 162px;
+    color: #000000;
+    margin-left: 300px;
+    text-decoration:#000000;
+}
+
+.general p{
+    font-family: 'Century Gothic';
+    
+}
+
+.generaltext{
+    margin-top: 20px;
+    margin-left: 500px;
+    z-index: 2;
+    position: absolute;
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+}
+
+.generalyears{
+    margin-top: 20px;
+    margin-left: 10px;
+    z-index: 2;
+    position: absolute;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.generaldesign{
+    margin-top: 210px;
+    margin-left: 350px;
+    z-index: 2;
+    position: absolute;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Line{
+    margin-top: 520px;
+    margin-left: 150px;
+}
+
+.generalthink{
+    margin-top: 400px;
+    margin-left: 100px;
+    z-index: 2;
+    position: absolute;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.generalanalyzing{
+    margin-top: 400px;
+    margin-left: 920px;
+    z-index: 2;
+    position: absolute;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: right;
+}
+
+.generalprojects{
+    margin-top: 550px;
+    margin-left: 230px;
+    z-index: 2;
+    position: absolute;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.maintext{
+    margin-top: -100px;
+    margin-left: 200px;
+    z-index: 2;
+    position: absolute;
+    color: #000000;
+    font-size: 120px;
+    font-family: 'Century Gothic';
+    font-weight: 575;
+}
+.mainbusiness{
+    margin-top: -10px;
+    margin-left: 200px;
+    z-index: 2;
+    position: absolute;
+    color: #000000;
+    font-size: 120px;
+    font-family: 'Century Gothic';
+    font-weight: 575;
+}
+
+.text{
+    margin-top: 230px;
+    margin-left: 250px;
+    z-index: 2;
+    position: absolute;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Century Gothic';
+     
+}
+.analysis{
+    position: absolute;
+    width: 463.35px;
+    height: 306.47px;
+    margin-left: 850.83px;
+    margin-top: 33px;
+}
+
+
+.maintexts{
+    margin-top: 300px;
+    margin-left: 200px;
+    z-index: 2;
+    position: absolute;
+    color: #000000;
+    font-size: 120px;
+    font-family: 'Century Gothic';
+    font-weight: 575;
+}
+.mainzero{
+    margin-top: 390px;
+    margin-left: 200px;
+    z-index: 2;
+    position: absolute;
+    color: #000000;
+    font-size: 120px;
+    font-family: 'Century Gothic';
+    font-weight: 575;
+}
+.texts{
+    margin-top: 640px;
+    margin-left: 250px;
+    z-index: 2;
+    position: absolute;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Century Gothic'
+}
+.computer{
+    position: absolute;
+    width: 463.35px;
+    height: 306.47px;
+    margin-left: 850.83px;
+    margin-top: 440px;
+}
+
+
+.maindo{
+    margin-top: 750px;
+    margin-left: 200px;
+    z-index: 2;
+    position: absolute;
+    color: #000000;
+    font-size: 120px;
+    font-family: 'Century Gothic';
+    font-weight: 575;
+}
+.maindesign{
+    margin-top: 845px;
+    margin-left: 200px;
+    z-index: 2;
+    position: absolute;
+    color: #000000;
+    font-size: 120px;
+    font-family: 'Century Gothic';
+    font-weight: 575;
+}
+.version{
+    margin-top: 1090px;
+    margin-left: 250px;
+    z-index: 2;
+    position: absolute;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Century Gothic'
+}
+.works{
+    position: absolute;
+    width: 463.35px;
+    height: 306.47px;
+    margin-left: 850.83px;
+    margin-top: 880px;
+}
+
+
+
+
